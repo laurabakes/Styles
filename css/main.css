@@ -1,0 +1,232 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  font-family: goudy_bookletter_1911regular,serif;
+ font-size:2em;
+}
+
+
+@media (max-width: 480px) {
+    body{font-size: 1.5em;}
+
+}
+
+h1{
+	font-size:4em;
+}
+
+
+@media (max-width: 480px) {
+    h1{font-size: 2.5em;}
+}
+
+
+@media (max-width: 767px)  {
+    h1{font-size: 3em;}
+}
+
+div {
+	color: #ffffff;
+	
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 120px;
+  background :url(footerimage.png) repeat-x;
+}
+
+.social {
+	
+}
+
+#navToggle .navStripe {
+	height: 4px;
+	background-color: #777;
+}
+
+#main-header .navbar-fat{
+/*    background: -webkit-linear-gradient(0deg,rgba(0,0,0,0) 0,rgba(0,0,0,.5) 100%);
+    background: linear-gradient(0deg,rgba(0,0,0,0) 0,rgba(0,0,0,.5) 100%);
+  */
+	background:none;
+	padding: 20px 0px 20px 20px;
+	border:none;
+	top:45px;
+	float:right;
+}
+#main-nav-holder .navbar-default{
+	background-color: none;
+	border:none;
+}
+ 
+#main-nav .navbar-default{
+	background-color: none;
+	
+}
+
+h1 {
+	display: table-cell;
+	padding-right :20%;
+	
+}
+
+#bubbleContainer{
+  
+  width: 100px;
+  position: relative;
+  display:table-cell;
+  transform: rotate(7deg);
+  top:20px;
+}
+#speechBubble {
+  position: absolute;
+  width:90px;
+}
+.speechBubbleLink{
+	z-index: 100;
+	position: absolute;
+	top:10px;
+}
+
+#meetTeamLink {
+  	left:20px;
+	color:#fff;
+}
+
+#ourStoryLink{
+  	left:20px;
+	color:#fff;
+}
+#faqLink{
+  	left:30px;
+	color:#777;
+}
+
+#contactLink{
+  	left:25px;
+	color:#777;
+}
+
+@media (min-width: 480px) {
+    #bubbleContainer{width: 150px; left:50px;}
+}
+@media (min-width: 480px) {
+    #speechBubble{width: 150px; }
+}
+@media (min-width: 480px) {
+    .speechBubbleLink{top:30px; }
+}
+
+
+@media (min-width: 480px) {   #ourStoryLink{left:30px; }}
+@media (min-width: 480px) {   #faqLink{left:50px; }}
+@media (min-width: 480px) {   #contactLink{left:45px; }}
+
+a{
+color:white;			
+}
+#navItemList li{
+	float:none;
+}
+
+
+#navItemList  a{
+	color:white;
+}
+
+#laptopMenuItemList a{
+	color:white;
+}
+
+#menu-grid-container {
+	background:none;
+}
+
+#menu-grid {
+	background:none;
+}
+
+#menu-grid .row{
+	margin-left:0px;
+	margin-right:0px;
+}
+
+
+
+.menuGridRow {
+	margin-left:0px;
+	margin-right:0px;
+
+}
+
+.menuGridItem a{
+	color:#ffffff;
+}
+
+.menuGridItem img{
+	display:block;
+	margin:0 auto;
+}
+
+.menuGridItem span{
+	display:block;
+	text-align:center;
+}
+
+.galleryGridItem {
+	padding:0;
+}
+.sectionHolder{
+	padding-top:30px;
+}
+.section-products {
+	background-color:black;
+}
+
+.section-story {
+	background-color:#FFFF8F;
+}
+.section-whereToBuy {
+	background-color:black;
+}
+
+.section-gallery {
+	background-color:yellowgreen;
+}
+.section-contact {
+	background-image: linear-gradient(180deg, #000000, #FFFFFF);
+}
+/* Custom page CSS
+
+*/
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.sectionHidden{
+	display :none;
+}
+
+
+.sectionVisible{
+	display :block;
+}
+
+#contactInfo a{
+	color:#000
+}
+
+.panel-body{
+	color:#777;
+}
