@@ -161,8 +161,30 @@ color:white;
 	margin-left:0px;
 	margin-right:0px;
 }
+#aboutNav{
+	background-color:#777;
+	height:50px;
+	margin-top:25px;
+	text-align:center;
+	margin-right:5px;
+}
+#aboutNav a{
+	color:#fff;
+	padding-top:25px;
+	padding-bottom:25px;
+}
 
+.background-image{
+	opacity:0.5;
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
 
+@media (min-width: 480px) {   .background-image-xs{display:none;}}
+@media (max-width: 480px) {   .background-image-lg{display:none;}}
 
 .menuGridRow {
 	margin-left:0px;
@@ -229,7 +251,8 @@ color:white;
 }
 
 #contactInfo a{
-	color:#000
+	color:#000;
+	
 }
 
 .panel-body{
