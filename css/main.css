@@ -81,6 +81,10 @@ h1 {
 	
 }
 
+.lineBreak{
+	padding-top:30px;
+}
+
 #bubbleContainer{
   
   width: 100px;
@@ -267,6 +271,32 @@ border: 1px solid #777;
 
 .sectionVisible{
 	display :block;
+}
+#flagContainer{
+  
+  width: 100px;
+  position: relative;
+   transform: rotate(-16deg);
+  top:20px;
+}
+
+#flagImage{
+
+  transform: rotate(19deg);
+  width:16em;
+}
+#flagContent {
+  position: absolute;
+  width:130px;
+  left:80px;
+  top:45px;
+}
+
+@media (min-width: 480px) {
+    #flagContainer{width: 150px; left:0px;}
+}
+@media (min-width: 480px) {
+    #flagContent{width: 180px; left:100px; top:65px;}
 }
 
 #contactInfo a{
