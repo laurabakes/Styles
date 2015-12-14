@@ -8,6 +8,7 @@ html {
 }
 body {
   /* Margin bottom by footer height */
+  min-height: 100%;
   margin-bottom: 60px;
   font-family: goudy_bookletter_1911regular,serif;
  font-size:2em;
@@ -85,6 +86,16 @@ h1 {
 	padding-top:30px;
 }
 
+#about-story .carousel-arrow{
+	background:none;
+	color:#777;
+
+}
+#about-story .carousel-left{
+	
+
+}
+
 #bubbleContainer{
   
   width: 100px;
@@ -113,8 +124,9 @@ h1 {
 	color:#fff;
 }
 #faqLink{
-  	left:30px;
+  	left:17px;
 	color:#777;
+	top:15px;
 }
 
 #contactLink{
@@ -282,7 +294,7 @@ border: 1px solid #777;
 
 #flagImage{
 
-  transform: rotate(19deg);
+  transform: rotate(18.8deg);
   width:16em;
 }
 #flagContent {
