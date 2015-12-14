@@ -85,14 +85,22 @@ h1 {
 .lineBreak{
 	padding-top:30px;
 }
+.carousel-control.right{
+	background:none;
+}
+.carousel-control.left{
+	background:none;
+}
 
-#about-story .carousel-arrow{
+#about-story .carousel-control.left{
 	background:none;
 	color:#777;
 
 }
-#about-story .carousel-left{
-	
+#about-story .carousel-control.right{
+	background:none;
+	color:#777;
+
 
 }
 
