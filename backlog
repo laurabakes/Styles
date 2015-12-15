@@ -10,7 +10,10 @@ Done - Turn Faq to "frequently asked Questions"
 Done - caraousel indicators on shows page are sat over text
 
 Centralize headers on small screens
+Make headers on xs small screen slightly smaller
+b2b page is jumping around in height too much
 homepage vector icons look pixelated
+bubble on faq is too close to header text
 move faq's to own section?
 standardise gutter ing and left alignment etc...
 breadcrumbs
