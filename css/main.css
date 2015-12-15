@@ -77,9 +77,9 @@ div {
 }
 
 h1 {
-	display: table-cell;
-	padding-right :20%;
-	
+	margin: auto;
+	width: 60%;
+	margin-bottom:40px;
 }
 
 .lineBreak{
@@ -209,9 +209,7 @@ color:white;
 @media (min-width: 570px) {   #carousel-aboutcontent{height:30em;}}
 @media (min-width: 768px) {   #carousel-aboutcontent{height:15em;}}
 
-#carousel-aboutcontent .carousel-indicators {
-	top:-30px;
-}
+
 #carousel-aboutcontent .carousel-indicators .active {
     
   background-color:#777;
