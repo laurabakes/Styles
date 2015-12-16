@@ -33,7 +33,6 @@ angular.module('stylesApp', [])
 		model.photos.push({src:'images/gallery/best_farmer.jpg'});
 		model.photos.push({src:'images/gallery/Briddicott_harvest.png'});
 		model.photos.push({src:'images/gallery/Briddicottfarm.png'});
-		model.photos.push({src:'images/gallery/briddicottsheep.png'});
 		
 		var faqs = [];
 		faqs.push({id:'faqOne', question: 'How do I become a Styles Ice Cream stockist?', answer: 'If you are interested in selling our ice cream, please do call or email us at your earliest convenience. We will then arrange to come and see you with samples of our ice cream and further information as to why you should choose Styles!'});

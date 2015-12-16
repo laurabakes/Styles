@@ -74,78 +74,35 @@
 			</div>
 		</nav>
 	</div>
-		<div    class="wrapper" ng-controller="GalleryController as model">
-			<!-- products -->
-			<div id="about" class="section section-story sectionHolder" >
-				
-					<div class="text-area" >
-					
-						<div class="container" >
-							<div class="row">
-								<div  class="title" id="animationTest">
-									<div class="col-xs-6 col-sm-8 ">
-										<h1 style="color:#777">About Styles</h1>
-									</div>
-									<div class="col-xs-6 col-sm-4">
-										<div id="bubbleContainer">
-											<img id="speechBubble" src="images/speechBubble.png" />
-											<a id="meetTeamLink" class="speechBubbleLink" href="#about"  onclick="toggleAbout('team');">Meet the team?</a>
-										</div>
-									</div>
-								</div>
+		<div class="wrapper" ng-controller="GalleryController as model">
+			<!-- gallery-->
+			<div id="gallery"  class="section section-gallery sectionHolder" >
+				<div class="text-area">
+					<div class="container">
+						<div class="row">
+							<div class="title col-xs-12" id="animationTest">
+								<h1>The Styles Gallery</h1>
 							</div>
 						</div>
 					</div>
-					<div class="container">
-											<div style="color:#777;">
-												<p>
-												What makes Styles so special?
-													<ul>
-													  <br/>
-													  <li>The recipes perfected by Sue in her farmhouse kitchen, using only fresh whole jersey cow’s or sheep’s milk</li>
-													  <br/>
-													  <li>Fresh West Country cream and no artificial colours or ingredients</li>
-													  <br/>
-													  <li>The amazing Styles ‘family’ that work so hard to help the business continue to grow and improve</li>
-													</ul>
-												</p>
+				</div>								
+				<div class="container">
+					<div id="menu-grid"  class="jumbotron">
+						<div class="row menuGridRow">
+							<div ng-repeat="photo in model.photos" class="col-xs-4 col-sm-3  galleryGridItem">
+								<a class="fancybox" rel="group" href="{{photo.src}}"><img ng-src="{{photo.src}}" class="img-responsive"></img></a>
+							</div>
+						</div>
+					</div>
+				</div>
 											
-											</div>
-											<div style="color:#777;">
-												<img  class="col-sm-4 img-responsive" src="images/about/David&flock_trimmed.jpg" alt="..." />
-													For generations, the Baker family have farmed the land at Styles Farm, on the edge of the beautiful heather moorland, among lush green valleys.  
-											
-											</div>
-										
-											<div style="color:#777;">
-											In 1988, as committed foodies, they decided to diversify into one of their favourite foods, luxury ice cream. Without losing the traditional ways of farming on the Exmoor Hills, David and Sue worked hard to perfect their favourite flavours using only the best natural ingredients and creating the most flavoursome ice creams that we have come to know and love as Styles Luxury Farmhouse Ice Cream.  
-											
-											</div>
-											<div style="color:#777;">
-													 <p class="col-sm-6">Recognised as the country’s premier producers of homemade farmhouse ice cream, and ‘Slim Ewe’ sheep’s milk Iced Desserts, Styles, that once modestly began with one 1930’s style ‘stop me and buy one’ ice cream trike, has now escalated to a fleet of 9 Ice Cream vans, 3 large parlour units, 4 small ice cream trailers, tent units and a number of trikes.  
-													</p>
-													 <img class="col-sm-4 img-responsive" src="images/about/dc_children.jpg" alt="..." />
-												
-											</div>
-										
-											<div style="color:#777;">
-											
-													 <p class="col-sm-6"> We attend events throughout the year ranging from village fetes to steam fairs, agricultural shows, regattas, air days and music festivals, as well as selling and delivering our ice-cream to a number of retailers including, cafes, pubs, restaurants and hotels, across the South-West and nationally, by external distributors.  
-													</p>
-													 <img class="col-sm-4 img-responsive" src="images/about/womad6.jpg" alt="..." />
-												
-											</div>
-																					
-									
-									
-									</div>
-									
-							
-		
 			</div>
+	
 		</div>
 	
-  <footer style="background-color:#FFFF8F;"  class="footer col-xs-3"> </footer>
+	
+	
+  <footer style="background-color:#A9CDEF;"  class="footer col-xs-3"> </footer>
        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
    
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
